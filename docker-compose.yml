@@ -1,0 +1,20 @@
+version: '3'
+services:
+  ins1:
+    image: "exp-day:0.0.1-SNAPSHOT"
+    ports:
+    - "8099:8080"
+  ins2:
+    image: "exp-day:0.0.1-SNAPSHOT"
+    ports:
+    - "8098:8080"
+
+  ins3:
+    image: "exp-day:0.0.1-SNAPSHOT"
+    ports:
+    - "8097:8080"
+
+  ins4:
+    image: "exp-day:0.0.1-SNAPSHOT"
+    ports:
+    - "8096:8080"
